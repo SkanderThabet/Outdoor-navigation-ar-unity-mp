@@ -4,13 +4,13 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-
+Assets/AssetStoreTools*
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
-
+Assets/ARLocation/
 # Gradle cache directory
 .gradle/
 
@@ -45,4 +45,11 @@ sysinfo.txt
 *.unitypackage
 
 # Crashlytics generated file
-crashlytics-build.properties
+Assets/StreamingAssets/crashlytics-build.properties
+
+.DS_Store
+
+Assets/_Temp*
+Assets/_Test*
+
+.idea/workspace.xml
